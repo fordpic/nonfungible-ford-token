@@ -2,8 +2,8 @@
 pragma solidity ^0.8.18;
 
 import {Test} from "forge-std/Test.sol";
-import {NFordT} from "../src/NFordT.sol";
-import {DeployNFordT} from "../script/DeployNFordT.s.sol";
+import {NFordT} from "../../src/NFordT.sol";
+import {DeployNFordT} from "../../script/DeployNFordT.s.sol";
 
 contract NFordTTest is Test {
     DeployNFordT public deployer;
