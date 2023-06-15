@@ -41,3 +41,6 @@ endif
 
 deploy:
 	@forge script script/DeployNFordT.s.sol:DeployNFordT $(NETWORK_ARGS)
+
+deployMood:
+	@forge script script/DeployMoodNFT.s.sol:DeployMoodNFTs $(NETWORK_ARGS)
